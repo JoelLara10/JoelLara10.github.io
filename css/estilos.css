@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../imagenes/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+header nav {
+    overflow: hidden;
+}
+header nav ul {
+    list-style:none;;
+}
+header nav ul li {
+    float: left;
+}
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background: #75acec;
+}
+h1{
+    background:black;
+    width: 700px;
+    font-size: 50px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 30px;
+    color: rgb(250, 15, 15);
+    background:#1f1a1d;
+    width: 700px;
+    text-transform: uppercase;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+
+}
+div{
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    border: 2px solid #000;
+
+}
+a {
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    background: rgb(79, 118, 128);
+    margin: 10px 20px;
+    display: inline-block;
+    box-shadow:0px 5px 0px #240f5c ;
+}
+
+a:hover {
+    box-shadow:0px 2px 0px #240f5c ;
+}
+a:active {
+    box-shadow: none;
+}
+img {
+    border-radius: 10px;
+}
